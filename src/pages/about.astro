@@ -1,21 +1,10 @@
 ---
-import BaseHead from '../components/BaseHead.astro'
 import BaseLayout from '../layouts/BaseLayout.astro'
-
-export interface Props {
-  content: {
-    title: string
-    description: string
-    customer?: string
-    updatedDate?: string
-    heroImage?: string
-  }
-}
 
 const heroImage = '/alan.jpg'
 ---
 
-<BaseLayout title="About Me" description="About Alan Gazzano" image={heroImage}>
+<BaseLayout title="About Me">
   <main class="md:flex md:justify-center">
     <article class="prose prose-lg max-w-[750px] prose-img:mx-auto">
       {heroImage && <img src={heroImage} alt="Me" class="w-full mb-6" />}
