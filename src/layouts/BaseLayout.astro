@@ -36,15 +36,14 @@ const { image, title = SITE_TITLE, description = SITE_DESCRIPTION } = Astro.prop
         }
       }
       if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", user: any => {
+        window.netlifyIdentity.on("init", ((user: any) => {
           if (!user) {
             window.netlifyIdentity.on("login", () => {
               document.location.href = "/admin/";
             });
           }
-        });
+        }));
       }
     </script>
-
   </body>
 </html>
