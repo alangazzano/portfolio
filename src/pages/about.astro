@@ -1,0 +1,51 @@
+---
+import BaseHead from '../components/BaseHead.astro'
+import BaseLayout from '../layouts/BaseLayout.astro'
+
+export interface Props {
+  content: {
+    title: string
+    description: string
+    pubDate?: string
+    updatedDate?: string
+    heroImage?: string
+  }
+}
+
+const heroImage = '/alan.jpg'
+---
+
+<BaseLayout title="About Me" description="About Alan Gazzano" image={heroImage}>
+  <main class="md:flex md:justify-center">
+    <article class="prose prose-lg max-w-[750px] prose-img:mx-auto">
+      {heroImage && <img src={heroImage} alt="Me" class="w-full mb-6" />}
+      <h1 class="title my-2 text-4xl font-bold">Alan Gazzano</h1>
+
+      <div class="divider my-2"></div>
+      <p>Born in Buenos Aires in 1989 and resident in Japan since 2017. Sponsored by the Japanese Ministry of Education (MEXT) for research in contemporary Japanese education. Over ten years of professional experience in cross-language communication services, with top quality reviews and references available online. Member of the Japan Translation Federation (JTF).</p>
+      <ul>
+        <li>Born in Buenos Aires to an Italian-Spanish family</li>
+
+        <li>Detail-oriented professional with a Master's Degree in Education from Yokohama National University</li>
+
+        <li>RWS Certification in Trados Studio 2021 for Project Managers</li>
+        <li>Certified translator in Japanese to Spanish (TQE) and Japanese to English (Business & Technical, JTF)</li>
+        <li>Proven experience in translation, localization and editing for customers in Argentina and Japan, as well as international corporations, with top quality ratings</li>
+
+        <li>Over a million words translated for Gengo (Lionbridge) and 300,000+ for TextMaster (Acolad)</li>
+
+        <li>Subtitling and proofreading for outsourcers in Tokyo on a weekly basis</li>
+
+        <li>Trados Studio 2021 and other software tools for accuracy and speed in a cost-effective way</li>
+        <li>End-clients including some of the world's top technology companies, app developers, web media, Japanese electronics giants and institutions from several countries, whose information remains confidential</li>
+
+        <li>Quality service at affordable rates</li>
+      </ul>
+
+      <p>
+        ブエノスアイレス市生まれ、アルゼンチン国立芸術大学卒業。翻訳歴10年、日本翻訳連盟（JTF）会員。 ブエノスアイレス市立音楽院にて研究員・翻訳担当を経て、2017年に日本大使館の推薦で来日。横浜国立大学大学院 教育学研究科（修士）修了。また、翻訳実務検定（1級）に合格し、SDL Trados Studioおよびプロジェクトマネージャー認定を取得。 東京を拠点として、IT・メディア・芸術・教育・観光・貿易といった分野において翻訳・校正・ローカライゼーション業務に携わる。
+        現在まで、オンライン翻訳サービスの（株）Gengo（Lionbridge）にて100万単位以上、欧州のTextMaster（Acolad）にて30万単位以上の訳出を完了し、一貫して高品質スコアを取得している。さらに、複数の翻訳会社にて、産業翻訳・映像翻訳・ネイティブチェック。 一方、教育学研究に従事し、ボランティア翻訳者として様々なプロジェクトにも参加している。また、この業界の最新動向に応じて、翻訳支援ツールの活用等、ITスキルを磨き続ける。
+      </p>
+    </article>
+  </main>
+</BaseLayout>
