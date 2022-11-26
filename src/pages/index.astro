@@ -77,6 +77,21 @@ const last_posts = posts.slice(0, 3);
 <div class="text-xl w-full text-center font-bold mb-5 mt-1">
 <a href="/portfolio/1" class=" hover:text-gray-500">See More</a>
 </div>
-
-
 </BaseLayout>
+
+<script>
+  declare global {
+    interface Window {
+      netlifyIdentity: any;
+    }
+  }
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", ((user: any) => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    }));
+  }
+</script>
