@@ -2,10 +2,13 @@
 layout: ../../layouts/PostLayout.astro
 title: Science laboratory equipment
 description: Certificate of durability attached to glass products
-customer: 2022-11-26T09:49:44.163Z
+customer: 2022-11-26
 heroImage: https://images.unsplash.com/photo-1532094349884-543bc11b234d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80
-tags: List \[ "english", "japanese"]
+tags:
+  - english
+  - japanese
 ---
+
 ### やりとり活動
 
 ### 口頭でのやりとり全般
@@ -24,7 +27,7 @@ tags: List \[ "english", "japanese"]
 
 自分の日常生活の中で重要な役割を果たす友人たち、サービス関係者、教師や他の人々に、直接伝える情報を簡単なメモに書き、重要と考える点を分かるよう伝えることができる。
 
-*省略*
+_省略_
 
 ### PActividades de interacción
 
