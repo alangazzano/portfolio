@@ -1,13 +1,11 @@
 ---
-layout: '../../layouts/PostLayout.astro'
-title: 'Audio technology'
-description: 'Japanese to Spanish: Specifications of an audio device. 2,500+ char (same-day delivery)'
-customer: 'Japanese manufacturer'
-heroImage: 'https://images.unsplash.com/photo-1589903308904-1010c2294adc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80'
-tags:
-  - spanish
-  - japanese
-  - audio
+layout: ../../layouts/PostLayout.astro
+title: Audio technology
+description: "Japanese to Spanish: Specifications of an audio device. 2,500+
+  char (same-day delivery)"
+customer: Japanese manufacturer
+heroImage: https://images.unsplash.com/photo-1589903308904-1010c2294adc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80
+tags: List \[ "spanish", "japanese", "audio", "technology" ]
 ---
 
 ### 3 系統のミックス・8 モード搭載、強烈なベースシンセペダル
