@@ -17,7 +17,7 @@ collections:
       - { label: 'layout', name: 'layout', widget: 'hidden', default: '../../layouts/PostLayout.astro' }
       - { label: 'title', name: 'title', widget: 'string' }
       - { label: 'description', name: 'description', widget: 'string' }
-      - { label: 'customer', name: 'customer', widget: 'datetime' }
+      - { label: 'customer', name: 'customer', widget: 'string' }
       - { label: 'heroImage', name: 'heroImage', widget: 'image' }
-      - { label: 'tags', name: 'tags', widget: 'markdown' }
+      - { label: 'tags', name: 'tags', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
