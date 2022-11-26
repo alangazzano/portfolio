@@ -32,17 +32,17 @@ const { image, title = SITE_TITLE, description = SITE_DESCRIPTION } = Astro.prop
     <script>
       declare global {
         interface Window {
-          netlifyIdentity: any;
+          netlifyIdentity: any
         }
       }
       if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", ((user: any) => {
+        window.netlifyIdentity.on('init', (user: any) => {
           if (!user) {
-            window.netlifyIdentity.on("login", () => {
-              document.location.href = "/admin/";
-            });
+            window.netlifyIdentity.on('login', () => {
+              document.location.href = '/admin/'
+            })
           }
-        }));
+        })
       }
     </script>
   </body>
