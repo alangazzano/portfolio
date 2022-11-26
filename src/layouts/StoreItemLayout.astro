@@ -1,22 +1,10 @@
 ---
-import BaseHead from "../components/BaseHead.astro";
-import BaseLayout from "./BaseLayout.astro";
+import BaseHead from '../components/BaseHead.astro'
+import BaseLayout from './BaseLayout.astro'
 
 const {
-  content: {
-    title,
-    description,
-    pubDate,
-    updatedDate,
-    heroImage,
-    pricing,
-    oldPricing,
-    checkoutUrl,
-    badge,
-    custom_link,
-    custom_link_label,
-  },
-} = Astro.props;
+  content: { title, description, customer, updatedDate, heroImage, pricing, oldPricing, checkoutUrl, badge, custom_link, custom_link_label },
+} = Astro.props
 ---
 
 <BaseLayout title={title} description={description} image={heroImage}>
@@ -43,14 +31,13 @@ const {
             }
             <a class="btn btn-primary grow md:grow-0 ml-4" href={checkoutUrl} target="_blank">Buy Now</a>
           </div>
-        
         </div>
       </div>
       {
         updatedDate && (
           <div>
-            {" "}
-            Last updated on <time>{updatedDate}</time>{" "}
+            {' '}
+            Last updated on <time>{updatedDate}</time>{' '}
           </div>
         )
       }

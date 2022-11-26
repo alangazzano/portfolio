@@ -2,7 +2,7 @@
 layout: '../../layouts/PostLayout.astro'
 title: 'Education'
 description: 'Checklist of student learning goals. 30,000 char. (1-month delivery)'
-pubDate: '2020-03-02'
+customer: 'A Japanese government agency'
 heroImage: 'https://images.unsplash.com/photo-1594608661623-aa0bd3a69d98?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80'
 tags:
   - spanish

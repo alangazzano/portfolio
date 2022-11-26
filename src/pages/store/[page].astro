@@ -4,7 +4,7 @@ import HorizontalShopItem from "../../components/HorizontalShopItem.astro";
 
 export async function getStaticPaths({ paginate }) {
   const posts = (await Astro.glob("./*.{md,mdx}")).sort(
-    (a, b) => new Date(b.frontmatter.pubDate).valueOf() - new Date(a.frontmatter.pubDate).valueOf()
+    (a, b) => new Date(b.frontmatter.customer).valueOf() - new Date(a.frontmatter.customer).valueOf()
   );
 
   return paginate(posts, { pageSize: 10 });

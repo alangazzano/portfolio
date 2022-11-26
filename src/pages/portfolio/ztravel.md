@@ -2,7 +2,7 @@
 layout: '../../layouts/PostLayout.astro'
 title: 'Kanagawa Travel'
 description: 'Tourist spots in Kanagawa prefecture, Japan. 25000+ char'
-pubDate: '2020-03-02'
+customer: '2020-03-02'
 heroImage: 'https://images.unsplash.com/photo-1604674286849-81c0fb34ed4c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80'
 tags:
   - spanish
