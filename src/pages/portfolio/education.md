@@ -1,14 +1,15 @@
 ---
 layout: '../../layouts/PostLayout.astro'
 title: 'Education'
-description: 'Checklist of student learning goals. 30,000 char. (1-month delivery)'
+description: 'Checklist of student learning goals (30,000+ char., 1-month delivery)'
 customer: 'A Japanese government agency'
-heroImage: 'https://images.unsplash.com/photo-1594608661623-aa0bd3a69d98?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80'
+heroImage: 'https://images.unsplash.com/photo-1476231790875-016a80c274f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80'
 tags:
   - spanish
   - japanese
   - education
 ---
+### Japanese source text
 
 ### やりとり活動
 
@@ -28,9 +29,11 @@ tags:
 
 自分の日常生活の中で重要な役割を果たす友人たち、サービス関係者、教師や他の人々に、直接伝える情報を簡単なメモに書き、重要と考える点を分かるよう伝えることができる。
 
-_省略_
+（後略）
 
-### PActividades de interacción
+### Spanish translation
+
+### Actividades de interacción
 
 ### Interacción oral general
 
