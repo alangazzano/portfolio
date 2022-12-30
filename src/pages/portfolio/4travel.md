@@ -1,7 +1,7 @@
 ---
 layout: '../../layouts/PostLayout.astro'
 title: 'Travel'
-description: 'Tourist spots in Kanagawa prefecture, Japan. 25000+ char'
+description: 'Tourist spots in Kanagawa prefecture, Japan (25,000+ char.)'
 customer: 'A Japanese government agency'
 heroImage: 'https://images.unsplash.com/photo-1610333902236-075d788f9071?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80'
 tags:

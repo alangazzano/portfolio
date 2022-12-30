@@ -5,8 +5,8 @@ description: 'Checklist of student learning goals (30,000+ char., 1-month delive
 customer: 'A Japanese government agency'
 heroImage: 'https://images.unsplash.com/photo-1476231790875-016a80c274f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80'
 tags:
-  - spanish
   - japanese
+  - spanish
   - education
 ---
 ### Japanese source text
