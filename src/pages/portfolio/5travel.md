@@ -28,12 +28,12 @@ tags:
 
 ### Sitios turísticos del distrito de Ashigarakami
 
-### Parque de hidrófitas de Itsukushima
+### _Parque de hidrófitas de Itsukushima_
 
 Es un humedal que ocupa la parte inferior de las terrazas del Kuzukawa. En el islote central se erige el portal del santuario sintoísta de Itsukushima, popularizado localmente con el nombre de la diosa Benten. Atrae diversas aves que van en busca de su privilegiado ambiente natural y, en primavera, permite disfrutar de la deslumbrante vista de los cerezos junto al agua.
 
-### Gosho Hachiman-gū
+### _Gosho Hachiman-gū_
 
-Fundado en 1157 por Gien —monje del monte Hiei—, el edificio actual de este santuario sintoísta fue reconstruido en 1761. Se cuenta entre los 61 sitios de oración a Minamoto-no-Yoritomo en Japón; y el monje guerrero Nakamura Munehira, que por entonces luchó en pos de la restauración de Minamoto-no-Yoritomo, también habría sido reverenciado, luego, como deidad protectora del santuario. Cada 29 de abril se celebra allí un gran festival anual que, además, es uno de los «50 festivales selectos de Kanagawa».
+Fundado en 1157 por Gien —monje del monte Hiei—, el edificio actual de este santuario sintoísta fue reconstruido en 1761. Se cuenta entre los 61 sitios de oración a Minamoto-no-Yoritomo en Japón; y el monje guerrero Nakamura Munehira, que por entonces luchó en pos de la restauración de Minamoto-no-Yoritomo, también habría sido reverenciado luego como deidad protectora del santuario. Cada 29 de abril se celebra allí un gran festival anual que, además, es uno de los «50 festivales selectos de Kanagawa».
 
 [...]

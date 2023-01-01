@@ -22,6 +22,7 @@ const {
     <article class="prose prose-lg max-w-[750px] prose-img:mx-auto">
       {heroImage && <img src={heroImage} alt={title} class="w-full mb-6" />}
       <h1 class="title my-2 text-4xl font-bold">{title}</h1>
+      {description && <time>Subject: {description}</time>} <br>
       {customer && <time>End client: {customer}</time>}
       {
         updatedDate && (
