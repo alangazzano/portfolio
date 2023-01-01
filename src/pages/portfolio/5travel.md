@@ -28,7 +28,8 @@ tags:
 
 ### Sitios turísticos del distrito de Ashigarakami
 
-Parque de hidrófitas de Itsukushima
+### Parque de hidrófitas de Itsukushima
+
 Es un humedal que ocupa la parte inferior de las terrazas del Kuzukawa. En el islote central se erige el portal del santuario sintoísta de Itsukushima, popularizado localmente con el nombre de la diosa Benten. Atrae diversas aves que van en busca de su privilegiado ambiente natural y, en primavera, permite disfrutar de la deslumbrante vista de los cerezos junto al agua.
 
 ### Gosho Hachiman-gū
