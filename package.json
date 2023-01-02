@@ -20,6 +20,9 @@
     "daisyui": "^2.27.0"
   },
   "devDependencies": {
-    "@tailwindcss/typography": "^0.5.7"
+    "@tailwindcss/typography": "^0.5.7",
+    "@typescript-eslint/eslint-plugin": "^5.47.1",
+    "@typescript-eslint/parser": "^5.47.1",
+    "eslint": "^8.31.0"
   }
 }
