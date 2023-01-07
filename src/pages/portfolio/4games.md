@@ -35,7 +35,7 @@ tags:
 —秘儀、二人羽織演奏！  
 （後略）
 
-### Spanish translation
+### Spanish localization
 
 —Esposo, deja ya la lira.  
 —No me molestes, Eurídice.  
