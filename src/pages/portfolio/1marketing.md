@@ -32,6 +32,6 @@ Must-have supplements for pregnancy and breastfeeding</b>
 AEON Japan recommends you these supplements for pregnancy and breastfeeding!</p>
 
 <b>Tasty, chewable folic-acid tablets</b></br>
-<p>Even if you want to, taking folic acid for your baby’s well-being is quite a difficult task. This is a good choice for mothers-to-be who want to take a daily dose of folic acid more easily. This supplement comes in three flavors (strawberry, blueberry and yogurt), so you will find it delicious and fun to take it regularly, like a snack.</p>
+<p>Even if you want to, taking folic acid for your baby’s well-being is quite a difficult task. This is a good choice for mothers-to-be who want to take a daily dose of folic acid more easily. This supplement comes in three flavors—strawberry, blueberry and yogurt—so you will find it delicious and fun to take it regularly, like a snack.</p>
 
 [...]
