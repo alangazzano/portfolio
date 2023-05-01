@@ -30,7 +30,7 @@ Enjoy a whole new experience with the motion sensor
 
 La {model} permite enviar fotos directamente a la cámara sin utilizar la aplicación móvil.
 
-_¡Agrégales un toque adicional a tus fotos!_
+_¡Dales un toque adicional a tus fotos!_
 
 Con esta nueva función del modo Diversión, podrás darles un toque adicional a tus fotos dibujando o escribiendo en ellas.
 Importa tus bocetos y tu texto manuscrito, agrégalos a tus fotos ¡y a imprimir!

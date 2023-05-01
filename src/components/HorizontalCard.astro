@@ -1,5 +1,14 @@
 ---
+import { getRandom, tagsColor } from '../utils/consts'
+
 const { title, img, desc, url, badge, tags = [], target = '_blank' } = Astro.props
+
+const tagColor = (tag: string) => {
+  if (tag === 'english') return tagsColor[1]
+  if (tag === 'spanish') return tagsColor[2]
+  if (tag === 'japanese') return tagsColor[3]
+  else return tagsColor[getRandom(7, 4)]
+}
 ---
 
 <div class="rounded-lg bg-base-100 hover:shadow-xl transition ease-in-out hover:scale-[102%] group">
@@ -13,7 +22,7 @@ const { title, img, desc, url, badge, tags = [], target = '_blank' } = Astro.pro
         </h1>
         <p class="py-1 text-1xl">{desc}</p>
         <div class="card-actions justify-end">
-          {tags && tags.map((tag) => <div class="badge badge-outline">{tag}</div>)}
+          {tags && tags.map((tag) => <div class={`badge ${tagColor(tag)}`}>{tag}</div>)}
         </div>
       </div>
     </div>
